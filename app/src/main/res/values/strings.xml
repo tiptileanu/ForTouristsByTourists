@@ -2,4 +2,10 @@
     <string name="app_name">For Tourists By Tourists</string>
     <string name="sign_out">Sign Out</string>
     <string name="add_poi">Add POI</string>
+
+    <string-array name="poi_type">
+        <item>Attraction</item>
+        <item>Museum</item>
+        <item>Park</item>
+    </string-array>
 </resources>
