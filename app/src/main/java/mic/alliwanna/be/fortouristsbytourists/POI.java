@@ -2,13 +2,13 @@ package mic.alliwanna.be.fortouristsbytourists;
 
 public class POI {
     private String poiName, poiDescription, poiAddress, poiOpeningHours, poiWebsite, poiPhotoUrl, poiBookingUrl, poiType;
-    private double poiRating;
+    private float poiRating;
     private boolean poiCanBook;
 
     public POI() {
     }
 
-    public POI(String poiName, String poiDescription, String poiAddress, String poiOpeningHours, String poiWebsite, String poiPhotoUrl, String poiBookingUrl, String poiType, double poiRating, boolean poiCanBook) {
+    public POI(String poiName, String poiDescription, String poiAddress, String poiOpeningHours, String poiWebsite, String poiPhotoUrl, String poiBookingUrl, String poiType, float poiRating, boolean poiCanBook) {
         // Set name of point of interest
         this.poiName = poiName;
         // Set description for point of interest
@@ -95,11 +95,11 @@ public class POI {
         this.poiType = poiType;
     }
 
-    public double getPoiRating() {
+    public float getPoiRating() {
         return poiRating;
     }
 
-    public void setPoiRating(double poiRating) {
+    public void setPoiRating(float poiRating) {
         this.poiRating = poiRating;
     }
 
